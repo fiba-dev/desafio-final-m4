@@ -1,0 +1,622 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+/*intro*/
+.intro{
+    min-height: 616px;
+    background-image: url(./imagenes/fondo.png);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0%;
+    padding: 0%;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    min-width:375px;
+    align-content: center;
+    
+    
+    
+}
+
+.logo-fran{
+  width: 54px;
+  height: 50px;
+  font-size: 38px;
+  font-family: "Indie Flower";
+  color: white;
+  align-items: center;
+  margin-top: 18px;
+  margin-left: 17px;
+
+}
+.label-burger{
+    display: none;
+    text-decoration: none;
+    color:black;
+}
+.burger{
+    display: grid;
+    grid-template-columns: 36px;
+    grid-template-rows: 6px 6px 6px;
+    
+    gap:7px;
+    justify-content:right;
+    align-content: center;
+    
+    padding: 20px;
+    
+  }
+  .burger-options{
+      background-color: white;
+  }
+  
+  .titulo{
+      
+      
+      width: 200px;
+      line-height: 48px;
+      align-self: center;
+      
+     color: white;
+      font-family:"Indie Flower";
+      font-size:45px;
+      
+      text-align: center;
+      margin-bottom: 58px;
+  }
+
+  .body-intro{
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0%;
+    justify-self: center;
+    align-self: center;
+    align-content: center;
+    
+    align-items: center;
+  }
+  
+@media(min-width:769px)
+{ .main-container{
+    display: flex;
+    
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+.intro {
+    margin-bottom: 0%;
+    min-height: 616px;
+    background-image: url(./imagenes/fondo.png);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: stretch;
+}
+    .logo-fran{
+    width: 105px;
+    height: 119px;
+    align-items: center;
+    margin-top: 36px;
+    margin-left: 80px;
+  
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    min-width: 375px;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+  }
+  .burger{
+    display: flex;
+    width: 428px;
+    height: 28px;
+    align-content: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+ .label-burger{
+    display: flex;
+    font-size: 24px;
+    font-family: "Indie Flower";
+    font-weight: 700;
+    color: white;
+    
+ }
+ .burger-options{
+     display: none;
+ }
+ .body-intro{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0%;
+    margin: 0%;
+    flex-wrap: wrap;
+    align-self: inherit;
+    align-items: stretch;
+    align-content: stretch;
+ }
+ .imagen-perfil{
+    
+    height: 435px;
+    margin-right: 84px;
+  
+  
+
+}
+.titulo{
+      
+    height: 96px;
+    width: 291px;
+    line-height: 58px;
+    letter-spacing: -1px;
+    
+   
+    font-family: "Indie Flower";
+    font-size:58px;
+    
+    text-align: center;
+    margin-top:0px;
+    margin-left: 80px;
+}
+
+}
+
+
+
+/*pagina soy-fran*/
+
+.soy-fran{
+    display: flex;
+    height: 538px;
+   
+    flex-direction: column;
+    background-color: black;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.subtitulos{
+    font-family: "Indie Flower";
+    font-size: 48px;
+    letter-spacing: -2px;
+    text-align: center;
+    color:#FAFAFA;
+
+    
+
+
+}
+.texto-soy-fran{
+
+    font-size: 18px;
+    font-family: "Indie Flower";
+    color:#FAFAFA;
+    text-align:left;
+    padding: 30px;
+}
+.boton-check{
+    height: 80px;
+    width: 80px;
+    align-items: center;
+}
+@media(min-width:769px){
+    .soy-fran{
+        display: flex;
+        min-height: 538px;
+       
+        flex-direction:row-reverse;
+        background-color: black;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }
+    .subtitulos{
+        font-family: "Indie Flower";
+        font-size: 48px;
+        letter-spacing: -2px;
+        text-align:left;
+        color:#FAFAFA;
+    
+        
+    
+    
+    }
+    .texto-soy-fran{
+        font-size: 24px;
+        font-family: "Indie Flower";
+        color:#FAFAFA;
+        text-align:left;
+        padding: 0px;
+        height: 165px;
+        width: 532px;
+    }
+    .boton-check{
+        height: 211px;
+        width: 211px;
+        align-items: center;
+    }
+
+}
+/*Hoja Servicios*/
+
+.servicios{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+
+}
+.div-servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 61px;
+    margin-top: 58px;
+}
+.subtitulos-servicios{
+    font-family: "Indie Flower";
+    font-size: 48px;
+    letter-spacing: -2px;
+    text-align: center;
+    color: #2C2C2C;
+   margin-top:50px;
+   margin-bottom: 0%;
+}
+.subtitulos-h3{
+    font-family: "Indie Flower";
+    font-weight: 700;
+    font-size: 30px;
+    color: #2C2C2C;
+
+
+
+}
+.imagen-pantalla{
+    height: 138px;
+    width: 128.03px;
+    
+    
+}
+
+.parrafos-mis-servicios{
+    text-align: center;
+    width: 262px;
+    height: 117px;
+    font-family: "Indie Flower";
+    font-size: 16px;
+    color: #2C2C2C;
+}
+.columna-servicios{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+/*@media de hoja de servicios*/
+@media(min-width:769px){
+    .servicios{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: space-around;
+        align-items: center;
+        width: auto;
+    
+    }
+    .div-servicios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subtitulos-servicios{
+        font-family: "Indie Flower";
+        font-size: 48px;
+        letter-spacing: -1px;
+        text-align: center;
+        color: #2C2C2C;
+        margin-bottom: 53px;
+    }
+    .subtitulos-h3{
+        font-family: "Indie Flower";
+        font-weight: 700;
+        font-size: 24px;
+        color: #2C2C2C;
+    
+    
+    
+    }
+    .imagen-pantalla{
+        height: 138px;
+        width: 128.03px;
+        
+    }
+    .imagen-pantalla2{
+        height: 138px;
+        width: 128.03px;
+        margin-top: 100px;
+    
+    }
+    .parrafos-mis-servicios{
+        text-align: center;
+        width: 262px;
+        height: 117px;
+        font-family: "Indie Flower";
+        font-size: 16px;
+        color: #2C2C2C;
+    }
+
+    .columna-servicios{
+         display: flex;
+         flex-direction: row;
+         width: 100%;
+         align-items: flex-end;
+         justify-content: space-around;
+    }
+}
+
+/* pagina form*/
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.ingresar-nombre{
+    height: 45px;
+    width: 335px;
+}
+.ingresar-email{
+    height: 45px;
+    width: 335px;
+}
+.ingresar-mensaje{
+    height: 113px;
+    width: 335px;
+}
+.tags-form{
+    font-family: "Roboto";
+    font-size: 13px;
+    color:#FAFAFA;
+    align-self: flex-start;
+    
+
+}
+.div-form{
+    display: flex;
+    margin-bottom: 20px;
+   
+    flex-direction: column;
+}
+.boton-enviar{
+    background: #FFD953;
+    font-family: "Indie Flower";
+    font-weight: 700;
+    font-size: 18px;
+    height: 45px;
+    width: 335px;
+    margin-bottom: 50px;
+
+}
+@media(min-width:769px)
+{.form{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+
+
+}
+.ingresar-nombre{
+    height: 45px;
+    width: 376px;
+}
+.ingresar-email{
+    height: 45px;
+    width: 376px;
+}
+.ingresar-mensaje{
+    height: 113px;
+    width: 376px;
+}
+.tags-form{
+    font-family: "Roboto";
+    font-size: 16px;
+    color:#FAFAFA;
+    align-self: flex-start;
+    
+
+}
+.div-form{
+    display: flex;
+    margin-bottom: 20px;
+   
+    flex-direction: column;
+}
+.boton-enviar{
+    background: #FFD953;
+    font-family: "Indie Flower";
+    font-weight: 700;
+    font-size: 18px;
+    height: 45px;
+    width: 375px;
+    margin-bottom: 50px;
+
+}
+.tabla-formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    
+}
+
+
+}
+/*pagina footer*/
+.footer{
+    min-height: 473px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+    background: #C4C4C4;
+
+
+
+    background-image: url(./imagenes/footer_background.jpg);
+    
+    
+   
+    
+}
+.logo-2021{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+
+}
+.fran-2021{
+  margin-left: 20px;
+  text-decoration: none;
+  color: #C4C4C4;
+  font-family: "Indie Flower";
+  font-size: 16px;
+  font-weight: 400;
+
+}
+.logo-footer{
+    margin-left: 20px;
+    height: 81px;
+    width: 87px;
+}
+.redes-sociales{
+    display: flex;
+    font-family: "Indie Flower";
+    font-weight: 400;
+    font-size: 16px;
+    min-height: 250px;
+    margin-left: 20px;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
+.texto-redes{
+   color:#C4C4C4;
+   text-decoration:none;
+   margin-left: 5px;
+
+}
+.redes{
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    margin-bottom: 29px;
+
+    
+}
+
+@media(min-width:769px)
+{.footer{
+    min-height: 473px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #C4C4C4;
+
+
+
+    background-image: url(./imagenes/footer_background.jpg);
+    align-content: space-around;
+    flex-wrap: wrap;
+    
+    
+   
+    
+}
+.logo-2021{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+
+}
+.fran-2021{
+  margin-left: 20px;
+  text-decoration: none;
+  color: #C4C4C4;
+  font-family: "Indie Flower";
+  font-size: 20px;
+  font-weight: 400;
+
+}
+.logo-footer{
+    height: 103px;
+    width: 112px;
+}
+.redes-sociales{
+    display: flex;
+    font-family:"Indie Flower";
+    font-weight: 400;
+    font-size: 26px;
+    min-height: 250px;
+    margin-left: 20px;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
+.texto-redes{
+   color:#C4C4C4;
+   text-decoration:none;
+
+}
+.redes{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    margin-bottom: 29px;
+    
+}
+
+
+}
