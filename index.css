@@ -380,5 +380,22 @@ body{
 }
 
 /* pagina form*/
-
-
+.servicios-template{
+    display: flex;
+    flex-direction: column;
+}
+@media(min-width:720px)
+{
+    .servicios-template{
+        display: flex;
+        flex-direction: row;
+    }
+}
+.contacto-container{
+    min-height: 475px;
+    width: 100%;
+}
+.footer-container{
+    min-height: 475px;
+    width: 100%;
+}
