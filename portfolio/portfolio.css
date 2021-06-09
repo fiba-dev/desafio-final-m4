@@ -1,11 +1,81 @@
 
-
-
+*{
+    box-sizing: content-box;
+}
 .portfolio-principal{
-    background-image: none;
-     background: linear-gradient(107.17deg, #954740 29.35%, rgba(156, 0, 210, 0.8) 78.73%);
-    ;
+
+    background-color: black;
+    
 }
 .intro{
     background-image: none;
+}
+.titulo{
+    font-size: 100px;
+    text-align: center;
+    width:100%
+}
+
+@media(min-width:720px){
+
+    .portfolio-principal{
+        background-image: none;
+         background: linear-gradient(107.17deg, #954740 29.35%, rgba(156, 0, 210, 0.8) 78.73%);
+        ;
+    }
+    
+
+    .portfolio-trabajos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+        font-family: "Indie Flower";
+        flex-direction: row;
+        align-content: center;
+    }
+
+}
+
+.mis-trabajos{
+border: solid 3px red;
+height: 402px;
+width: 301px;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+.subtitulos-portfolio{
+    margin:0%;
+    font-size: 24px;
+}
+.imagen-trabajos{
+  height: 172px;
+  width: 290px;
+  margin:0%;
+
+}
+.descripcion-trabajos{
+    height: 125px;
+    width: 262px;
+    text-align: center;
+    font-size: 16px;
+    margin:0%;
+    line-height: 20px;
+}
+.link-trabajo{
+    font-size: 24px;
+    color: hsla(11, 96%, 65%, 1);
+    
+    text-decoration: none;
+
+}
+footer{
+    width: 100%;
+    min-height: 473px;
+    display: flex;
 }
