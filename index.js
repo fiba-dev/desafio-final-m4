@@ -44,6 +44,7 @@ function traerElementos(){
 function main(){
 footerComponent(document.querySelector(".footer-container")) ;
 contactoComponent(document.querySelector(".contacto-container"));
+
 traerElementos()
 
 

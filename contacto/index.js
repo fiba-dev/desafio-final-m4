@@ -27,8 +27,3 @@ function contactoComponent(el){
 
 
 }
-function main(){
-//  contactoComponent(document.querySelector(".contacto-contenedor"))
-
-}
-main();
