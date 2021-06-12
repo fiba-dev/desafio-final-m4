@@ -11,14 +11,14 @@ function headerComponent(el){
       </div>
  <header class="header" >  
  <div class="inicio">
-<a href="../index.html"> <img src="../imagenes/icon.jpg" class="header__logo"></a>
+<a href="../index.html"> <img src="./imagenes/icon.jpg" class="header__logo"></a>
 <a href="../index.html" class="header__incio">Inicio</a>
 </div>
  
    <div class="header__vinculos"> 
      <button class="header__menu-button">Menu</button>
-     <a href="../portfolio/portfolio.html" class="header__label">Portfolio</a>
-     <a href="../escribime/contacto.html"class="header__label">Escribime</a>
+     <a href="./portfolio/portfolio.html" class="header__label">Portfolio</a>
+     <a href="./escribime/contacto.html"class="header__label">Escribime</a>
      <a href="#servicios"class="header__label">Servicios</a>
     </div>
  
