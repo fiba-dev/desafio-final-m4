@@ -11,8 +11,8 @@ function headerComponent(el){
       </div>
  <header class="header" >  
  <div class="inicio">
-<a href="../index.html"> <img src="http://images.ctfassets.net/0q692q1cfe6h/171oK9iedio26xXz2Y5mtg/0b666c72132118f9ba8f79dbaff726fa/icon.jpg" class="header__logo"></a>
-<a href="../index.html" class="header__incio">Inicio</a>
+<a href="https://fiba-dev.github.io/desafio-final-m4"> <img src="http://images.ctfassets.net/0q692q1cfe6h/171oK9iedio26xXz2Y5mtg/0b666c72132118f9ba8f79dbaff726fa/icon.jpg" class="header__logo"></a>
+<a href="https://fiba-dev.github.io/desafio-final-m4" class="header__incio">Inicio</a>
 </div>
  
    <div class="header__vinculos"> 
