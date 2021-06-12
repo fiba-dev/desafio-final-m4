@@ -3,7 +3,7 @@ body{
     margin:0%;
     background-color: black;
 }
-.form{
+.formulario{
     display: flex;
     flex-direction: column;
     background-color: black;
@@ -14,19 +14,19 @@ body{
 
 
 }
-.ingresar-nombre{
+.input__nombre{
     height: 45px;
     width: 335px;
 }
-.ingresar-email{
+.input__email{
     height: 45px;
     width: 335px;
 }
-.ingresar-mensaje{
+.input__mensaje{
     height: 113px;
     width: 335px;
 }
-.tags-form{
+.form__label{
     font-family: "Roboto";
     font-size: 13px;
     color:#FAFAFA;
@@ -34,13 +34,13 @@ body{
     
 
 }
-.div-form{
+.form__div{
     display: flex;
     margin-bottom: 20px;
    
     flex-direction: column;
 }
-.boton-enviar{
+.form__boton{
     background: #FFD953;
     font-family: "Indie Flower";
     font-weight: 700;
@@ -62,7 +62,7 @@ body{
 
 }
 @media(min-width:769px)
-{.form{
+{.formulario{
     display: flex;
     flex-direction: row;
     background-color: black;
@@ -73,19 +73,19 @@ body{
 
 
 }
-.ingresar-nombre{
+.input__nombre{
     height: 45px;
     width: 376px;
 }
-.ingresar-email{
+.input__email{
     height: 45px;
     width: 376px;
 }
-.ingresar-mensaje{
+.input__mensaje{
     height: 113px;
     width: 376px;
 }
-.tags-form{
+.form__label{
     font-family: "Roboto";
     font-size: 16px;
     color:#FAFAFA;
@@ -93,13 +93,13 @@ body{
     
 
 }
-.div-form{
+.form__div{
     display: flex;
     margin-bottom: 20px;
    
     flex-direction: column;
 }
-.boton-enviar{
+.form__boton{
     background: #FFD953;
     font-family: "Indie Flower";
     font-weight: 700;
@@ -109,7 +109,7 @@ body{
     margin-bottom: 50px;
 
 }
-.tabla-formulario{
+.form{
     display: flex;
     flex-direction: column;
     padding: 25px;

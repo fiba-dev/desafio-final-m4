@@ -53,7 +53,9 @@ function getCard()
     
 
 }
+headerComponent(document.querySelector(".portfolio__header"));
 footerComponent(document.querySelector(".portfolio-footer")) ;
+abrirCerrarVentanas();
 getCard()
 }
 

@@ -40,12 +40,14 @@ function traerElementos(){
 }
 
 
-
 function main(){
 footerComponent(document.querySelector(".footer-container")) ;
 contactoComponent(document.querySelector(".contacto-container"));
+headerComponent(document.querySelector(".header-main"))
 
 traerElementos()
+abrirCerrarVentanas();
+contactoSubmit();
 
 
 

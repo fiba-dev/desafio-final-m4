@@ -1,0 +1,215 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-content: center;
+    min-height: 100px;
+    
+    
+    
+}
+.inicio{
+  display: flex;
+  flex-direction: column;
+}
+.header__incio{
+  text-decoration: none;
+  margin-left: 17px;
+  text-align: center;
+  color: white;
+  font-family: "Indie Flower";
+  font-size: 24px;
+}
+
+.header__logo{
+  width: 80px;
+  height: 80px;
+  font-size: 38px;
+  font-family: "Indie Flower";
+  color: white;
+  align-items: center;
+  margin-top: 18px;
+  margin-left: 17px;
+
+}
+.header__label{
+    display: none;
+    text-decoration: none;
+    color:black;
+}
+
+  
+  .titulo{
+      
+      
+      width: 200px;
+      line-height: 48px;
+      align-self: center;
+      
+     color: white;
+      font-family:"Indie Flower";
+      font-size:45px;
+      
+      text-align: center;
+      margin-bottom: 58px;
+  }
+
+  .body-intro{
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0%;
+    justify-self: center;
+    align-self: center;
+    align-content: center;
+    
+    align-items: center;
+  }
+  .header__menu-button{
+    border:none;
+    color: white;
+    background: none;
+    font-family: "Indie Flower";
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+  }
+  .ventana{
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top:0px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      
+      background-color: black;
+      display:none;
+  }
+  .ventana__label{
+      color: white;
+  }
+  .boton__cerrar{
+      position: absolute;
+      top:10px;
+      right: 10px;
+     font-size: 40px;
+      width: 50px;
+      height: 50px;
+      background-color:black;
+      color: white;
+      border:none;
+  }
+  .ventana__vinculos{
+      margin-top: 58px;
+      min-height: 475px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     
+  }
+  .ventana__label{
+    font-size: 56px;
+    font-family: "Indie Flower";
+    text-decoration: none;
+
+  }
+@media(min-width:769px)
+{ .main-container{
+    display: flex;
+    
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+
+.header__incio{
+  font-size: 36px;
+  margin-left: 80px;
+}
+.header__menu-button{
+    display: none;
+}
+    .header__logo{
+    width: 105px;
+    height: 119px;
+    align-items: center;
+    margin-top: 36px;
+    margin-left: 80px;
+  
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    min-width: 375px;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+  }
+ 
+  .header__vinculos{
+    display: flex;
+   
+    min-width: 500px;
+    height: 100px;
+    align-content: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+
+  }
+ .header__label{
+    display: flex;
+    font-size: 36px;
+    font-family: "Indie Flower";
+    font-weight: 700;
+    color: white;
+    
+ }
+ 
+ .body-intro{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0%;
+    margin: 0%;
+    flex-wrap: wrap;
+    align-self: inherit;
+    align-items: stretch;
+    align-content: stretch;
+ }
+ .imagen-perfil{
+    
+    height: 435px;
+    margin-right: 84px;
+  
+  
+
+}
+.titulo{
+      
+    height: 96px;
+    width: 291px;
+    line-height: 58px;
+    letter-spacing: -1px;
+    
+   
+    font-family: "Indie Flower";
+    font-size:58px;
+    
+    text-align: center;
+    margin-top:0px;
+    margin-left: 80px;
+}
+
+}

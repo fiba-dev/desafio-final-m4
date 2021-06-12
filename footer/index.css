@@ -15,7 +15,7 @@
    
     
 }
-.logo-2021{
+.footer__logo{
     
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@
     justify-content: flex-end;
 
 }
-.fran-2021{
+.footer__logo__label{
   margin-left: 20px;
   text-decoration: none;
   color: #C4C4C4;
@@ -34,12 +34,12 @@
   font-weight: 400;
 
 }
-.logo-footer{
+.footer__logo__img{
     margin-left: 20px;
     height: 81px;
     width: 87px;
 }
-.redes-sociales{
+.footer__redes-sociales{
     display: flex;
     font-family: "Indie Flower";
     font-weight: 400;
@@ -51,13 +51,13 @@
    
 
 }
-.texto-redes{
+.redes-sociales__link{
    color:#C4C4C4;
    text-decoration:none;
    margin-left: 5px;
 
 }
-.redes{
+.redes-sociales__div{
     display: flex;
     font-size: 16px;
     align-items: center;
@@ -85,7 +85,7 @@
    
     
 }
-.logo-2021{
+.footer__logo{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -94,7 +94,7 @@
     justify-content: flex-end;
 
 }
-.fran-2021{
+.footer__logo__label{
   margin-left: 20px;
   text-decoration: none;
   color: #C4C4C4;
@@ -103,11 +103,11 @@
   font-weight: 400;
 
 }
-.logo-footer{
+.footer__logo__img{
     height: 103px;
     width: 112px;
 }
-.redes-sociales{
+.footer__redes-sociales{
     display: flex;
     font-family:"Indie Flower";
     font-weight: 400;
@@ -119,12 +119,12 @@
    
 
 }
-.texto-redes{
+.redes-sociales__link{
    color:#C4C4C4;
    text-decoration:none;
 
 }
-.redes{
+.redes-sociales__div{
     display: flex;
     font-size: 20px;
     align-items: center;

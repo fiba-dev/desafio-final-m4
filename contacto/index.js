@@ -1,19 +1,19 @@
 function contactoComponent(el){
    const contactoEl = document.createElement("div");
    contactoEl.innerHTML=`
-   <div class="form"> 
+<div class="formulario" > 
             <h2 id="escribime" class="subtitulos">Escribime</h2>
-            <div class="tabla-formulario">  
-        <div class="div-form"> <label id="nombre" class="tags-form">NOMBRE</label>
-            <input id="nombre" class="ingresar-nombre" type="text"></div>
-            <div class="div-form">  <label id="email" class="tags-form">EMAIL</label>
-                <input id="email" class="ingresar-email" type="email"></div>
+            <form class="form">  
+        <div class="form__div"> <label id="nombre" class="form__label">NOMBRE</label>
+            <input id="nombre" class="input__nombre" type="text"></div>
+            <div class="form__div">  <label id="email" class="form__label">EMAIL</label>
+                <input id="email" class="input__email" type="email"></div>
             
-             <div class="div-form">  <label id="mensaje" class="tags-form">MENSAJE</label>
-                <input id="mensaje" class="ingresar-mensaje" type="text"></div>
+             <div class="form__div">  <label id="mensaje" class="form__label">MENSAJE</label>
+                <input id="mensaje" class="input__mensaje" type="text"></div>
              
-             <button class="boton-enviar">Enviar</button>
-            </div>
+             <button class="form__boton">Enviar</button>
+            </form>
         </div>
    
    
@@ -26,4 +26,45 @@ function contactoComponent(el){
 
 
 
+}
+async function postData(url = '', data = {}) {
+    
+   const response = await fetch(url, {
+     method: 'POST',
+     mode: 'cors', 
+     cache: 'no-cache', 
+     credentials: 'same-origin', 
+     headers: {
+       'Content-Type': 'application/json'
+       
+     },
+     redirect: 'follow', 
+     referrerPolicy: 'no-referrer', 
+     body: JSON.stringify(data) 
+   });
+   return response.json(); 
+ }
+ 
+ 
+   
+function contactoSubmit(){
+const form =document.querySelector(".form")
+console.log("este es el form",form);
+form.addEventListener("submit",(res)=>{
+     res.preventDefault();
+     const form= res.target;
+     let nombre=form.nombre.value;
+     let email= form.email.value
+     let mensaje=form.mensaje.value;
+      msj= `Nombre:${nombre} Email:${email} Mensaje:${mensaje}`
+     let data= { "to":"fibarrola06@gmail.com",
+     "message":msj,}
+     console.log(data)
+     postData("https://apx-api.vercel.app/api/utils/dwf",data).then(data => {
+       console.log(data); // JSON data parsed by `data.json()` call
+     });
+  
+         
+        
+})
 }
